@@ -54,25 +54,25 @@ body {
 /* Fondos diferentes para cada card */
 .card-1 {
   background: linear-gradient(135deg, #6a11cb, #2575fc); /* Fondo gradiente 1 */
-  background: url('./Assets/MINERIA.webp');
+  background: url('../Assets/MINERIA.webp');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .card-2 {
-  background: url('/Assets/INDUSTRIAL_COMERCIAL.webp');
+  background: url('../Assets/INDUSTRIAL_COMERCIAL.webp');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .card-3 {
-  background: url('/Assets/INFRAESTRUCTURA.webp');
+  background: url('../Assets/INFRAESTRUCTURA.webp');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .card-4 {
-  background: url('/Assets/PETROQUIMICO.webp');
+  background: url('../Assets/PETROQUIMICO.webp');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -498,15 +498,15 @@ svg {
   background-attachment: fixed;
 } */
 .carousel-item:nth-child(1) .banner {
-  background-image: url('./Assets/Banner_principal_CrossLine_001.webp'); /* Reemplaza con tu imagen */
+  background-image: url('../Assets/Banner_principal_CrossLine_001.webp'); /* Reemplaza con tu imagen */
 }
 
 .carousel-item:nth-child(2) .banner {
-  background-image: url('./Assets/Banner_principal_CrossLine_002.webp'); /* Reemplaza con tu imagen */
+  background-image: url('../Assets/Banner_principal_CrossLine_002.webp'); /* Reemplaza con tu imagen */
 }
 
 .carousel-item:nth-child(3) .banner {
-  background-image: url('./Assets/Banner_principal_CrossLine_003.webp'); /* Reemplaza con tu imagen */
+  background-image: url('../Assets/Banner_principal_CrossLine_003.webp'); /* Reemplaza con tu imagen */
 }
 
 .container-fluid .banner-productos {
