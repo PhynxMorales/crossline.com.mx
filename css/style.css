@@ -54,7 +54,7 @@ body {
 /* Fondos diferentes para cada card */
 .card-1 {
   background: linear-gradient(135deg, #6a11cb, #2575fc); /* Fondo gradiente 1 */
-  background: url('/Assets/MINERIA.webp');
+  background: url('./Assets/MINERIA.webp');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
