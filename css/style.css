@@ -498,15 +498,15 @@ svg {
   background-attachment: fixed;
 } */
 .carousel-item:nth-child(1) .banner {
-  background-image: url('/Assets/Banner_principal_CrossLine_001.webp'); /* Reemplaza con tu imagen */
+  background-image: url('./Assets/Banner_principal_CrossLine_001.webp'); /* Reemplaza con tu imagen */
 }
 
 .carousel-item:nth-child(2) .banner {
-  background-image: url('/Assets/Banner_principal_CrossLine_002.webp'); /* Reemplaza con tu imagen */
+  background-image: url('./Assets/Banner_principal_CrossLine_002.webp'); /* Reemplaza con tu imagen */
 }
 
 .carousel-item:nth-child(3) .banner {
-  background-image: url('/Assets/Banner_principal_CrossLine_003.webp'); /* Reemplaza con tu imagen */
+  background-image: url('./Assets/Banner_principal_CrossLine_003.webp'); /* Reemplaza con tu imagen */
 }
 
 .container-fluid .banner-productos {
