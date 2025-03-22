@@ -688,7 +688,7 @@ svg {
 }
 
 .bg-call {
-  background: url("/Assets/Banner_Contactanos.webp");
+  background: url("../Assets/Banner_Contactanos.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
