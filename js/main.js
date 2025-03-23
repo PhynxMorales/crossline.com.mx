@@ -375,7 +375,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "../Assets/products/CL55.png",
+    image: "./Assets/products/CL55.png",
     ficha: "",
   },
   {
@@ -384,7 +384,7 @@ let products = [
     category: "Unicancal",
     application: "Casual",
     availability: "Disponible",
-    image: "../Assets/products/CONECTOR DE ESQUINA LU-1956.png",
+    image: "./Assets/products/CONECTOR DE ESQUINA LU-1956.png",
     ficha: "",
   },
   {
