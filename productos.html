@@ -172,6 +172,29 @@
 
 
 
+<!-- Modal para la imagen -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <!-- Header del Modal con logo y fondo azul -->
+      <div class="modal-header bg-image text-white">
+        <img src="./Assets/logotipo_CL_blanco.svg" alt="Logo de la empresa" class="modal-logo" style="height: 40px;">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!-- Body del Modal -->
+      <div class="modal-body text-center">
+        <img id="modalImage" src="" alt="Imagen ampliada" class="img-fluid">
+      </div>
+      <!-- Footer del Modal con derechos reservados -->
+      <div class="py-2 bg-light text-center border-1 border-top">
+        <p class="text-muted text-center mb-0">
+          ©Crossline. Todos los derechos reservados. 
+          <a href="https://www.crossline.com.mx" target="_blank" class="text-black">crossline.com.mx</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   <main>
@@ -208,7 +231,7 @@
 
 
     <!--Productos-->
-    <section>
+    <!-- <section>
 
       <div class="container my-5">
         <div class="col-12">
@@ -219,7 +242,7 @@
             <div class="card wow animate__animated animate__flipInX">
               <div class="productos bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/tipo_ducto.png" class="img-fluid hover-zoom" />
-                <a >
+                <a href="https://cross-line-soporteria.myshopify.com/collections/canalizacion-tipo-ducto">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
 
@@ -230,7 +253,7 @@
             <div class="card wow animate__animated animate__flipInX ">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/tipo_escalera.png" class="img-fluid" />
-                <a >
+                <a href="https://cross-line-soporteria.myshopify.com/collections/charola-tipo-escalera">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
@@ -240,7 +263,7 @@
             <div class="card wow animate__animated animate__flipInX ">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/tipo_malla.png" class="img-fluid" />
-                <a >
+                <a href="https://cross-line-soporteria.myshopify.com/collections/canalizacion-tipo-malla">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
@@ -251,7 +274,7 @@
             <div class="card wow animate__animated animate__flipInX ">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/tipo_unicanal.png" class="img-fluid" />
-                <a >
+                <a href="https://cross-line-soporteria.myshopify.com/collections/canalizacion-tipo-unicanal">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
@@ -262,7 +285,7 @@
             <div class="card wow animate__animated  animate__flipInX">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/ductos.png" class="img-fluid" />
-                <a >
+                <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
@@ -272,7 +295,7 @@
             <div class="card wow animate__animated animate__flipInX ">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/canaleta.png" class="img-fluid" />
-                <a >
+                <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
@@ -282,7 +305,7 @@
             <div class="card wow animate__animated  animate__flipInX">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/electroregistro.png" class="img-fluid" />
-                <a >
+                <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
@@ -292,7 +315,7 @@
             <div class="card wow animate__animated animate__flipInX ">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/abrazadera.png" class=" img-fluid" />
-                <a >
+                <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
@@ -302,7 +325,7 @@
             <div class="card wow animate__animated  animate__flipInX">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/tuberia.png" class="img-fluid" />
-                <a >
+                <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
@@ -312,7 +335,7 @@
             <div class="card wow animate__animated animate__flipInX">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/unicanal.png" class="img-fluid" />
-                <a >
+                <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
@@ -322,7 +345,7 @@
             <div class="card wow animate__animated animate__flipInX">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./Assets/escalera.png" class="img-fluid" />
-                <a >
+                <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
@@ -330,7 +353,174 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
+    <div class="container-fluid ">
+      <div class="row mx-md-2 p-md-5 mx-0 p-0 position-relative ">
+        <div class="title-products">
+          <h2 class="text-black">Portafolio de productos</h2>
+          <p class="border-bottom border-1 pb-3">En Cross Line, no solo vendemos productos; ofrecemos soluciones confiables y duraderas que impulsan el éxito de nuestros clientes. ¡Explora nuestro portafolio y descubre por qué somos la mejor opción!</p>
+        </div>
+        <!-- Filtros (lado izquierdo) -->
+        <div class="col-md-3 p-4 bg-light sticky-top container-products" >
+          <h4 class="text-black border-bottom border-1 pb-2">Filtros</h2>
+    
+          <!-- Acordeón para móviles -->
+          <div class="accordion d-md-none" id="filtersAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Mostrar Filtros
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#filtersAccordion">
+                <div class="accordion-body">
+                  <!-- Contenido de los filtros -->
+                  <div class="mb-4">
+                    <h5>Categoría</h5>
+                    <!-- Abrazaderas -->
+                    <div class="form-check">
+                      <input class="form-check-input mt-2" type="checkbox" value="Abrazaderas" id="categoryAbrazaderasMobile" name="categoryFilter">
+                      <label class="form-check-label mt-2" for="categoryAbrazaderasMobile">Abrazaderas (<span id="countAbrazaderasMobile">0</span>)</label>
+                    </div>
+    
+                    <!-- Canaletas -->
+                    <div class="form-check">
+                      <input class="form-check-input mt-2" type="checkbox" value="Canaletas" id="categoryCanaletasMobile" name="categoryFilter">
+                      <label class="form-check-label mt-2" for="categoryCanaletasMobile">Canaletas (<span id="countCanaletasMobile">0</span>)</label>
+                    </div>
+    
+                    <!-- Charolas -->
+                    <div class="form-check">
+                      <input class="form-check-input mt-2" type="checkbox" value="Charolas" id="categoryCharolasMobile" name="categoryFilter">
+                      <label class="form-check-label mt-2" for="categoryCharolasMobile">Charolas (<span id="countCharolasMobile">0</span>)</label>
+                    </div>
+    
+                    <!-- Ductos -->
+                    <div class="form-check">
+                      <input class="form-check-input mt-2" type="checkbox" value="Ductos" id="categoryDuctosMobile" name="categoryFilter">
+                      <label class="form-check-label mt-2" for="categoryDuctosMobile">Ductos (<span id="countDuctosMobile">0</span>)</label>
+                    </div>
+    
+                    <!-- Novedades -->
+                    <div class="form-check">
+                      <input class="form-check-input mt-2" type="checkbox" value="Novedades" id="categoryNovedadesMobile" name="categoryFilter">
+                      <label class="form-check-label mt-2" for="categoryNovedadesMobile">Novedades (<span id="countNovedadesMobile">0</span>)</label>
+                    </div>
+    
+                    <!-- Tuberías -->
+                    <div class="form-check">
+                      <input class="form-check-input mt-2" type="checkbox" value="Tuberias" id="categoryTuberiasMobile" name="categoryFilter">
+                      <label class="form-check-label mt-2" for="categoryTuberiasMobile">Tuberías (<span id="countTuberiasMobile">0</span>)</label>
+                    </div>
+    
+                    <!-- Unicanal -->
+                    <div class="form-check">
+                      <input class="form-check-input mt-2" type="checkbox" value="Unicanal" id="categoryUnicanalMobile" name="categoryFilter">
+                      <label class="form-check-label mt-2" for="categoryUnicanalMobile">Unicanal (<span id="countUnicanalMobile">0</span>)</label>
+                    </div>
+                  </div>
+    
+                  <!-- Disponibilidad -->
+                  <div class="mb-4">
+                    <h5>Disponibilidad</h5>
+                    <div class="form-check">
+                      <input class="form-check-input mt-2" type="checkbox" value="Disponible" id="availabilityDisponibleMobile" name="availabilityFilter">
+                      <label class="form-check-label mt-2" for="availabilityDisponibleMobile">Disponible</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input mt-2" type="checkbox" value="Agotado" id="availabilityAgotadoMobile" name="availabilityFilter">
+                      <label class="form-check-label mt-2" for="availabilityAgotadoMobile">Agotado</label>
+                    </div>
+                  </div>
+    
+                  <!-- Botón para aplicar filtros -->
+                  <button class="btn-filter w-100" onclick="applyFilters()">Aplicar Filtros</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Filtros para pantallas grandes -->
+          <div class="d-none d-md-block">
+            <div class="mb-4">
+              <h5>Categoría</h5>
+              <!-- Abrazaderas -->
+              <div class="form-check">
+                <input class="form-check-input mt-2" type="checkbox" value="Abrazaderas" id="categoryAbrazaderas" name="categoryFilter">
+                <label class="form-check-label mt-2" for="categoryAbrazaderas">Abrazaderas (<span id="countAbrazaderas">0</span>)</label>
+              </div>
+    
+              <!-- Canaletas -->
+              <div class="form-check">
+                <input class="form-check-input mt-2" type="checkbox" value="Canaletas" id="categoryCanaletas" name="categoryFilter">
+                <label class="form-check-label mt-2" for="categoryCanaletas">Canaletas (<span id="countCanaletas">0</span>)</label>
+              </div>
+    
+              <!-- Charolas -->
+              <div class="form-check">
+                <input class="form-check-input mt-2" type="checkbox" value="Charolas" id="categoryCharolas" name="categoryFilter">
+                <label class="form-check-label mt-2" for="categoryCharolas">Charolas (<span id="countCharolas">0</span>)</label>
+              </div>
+    
+              <!-- Ductos -->
+              <div class="form-check">
+                <input class="form-check-input mt-2" type="checkbox" value="Ductos" id="categoryDuctos" name="categoryFilter">
+                <label class="form-check-label mt-2" for="categoryDuctos">Ductos (<span id="countDuctos">0</span>)</label>
+              </div>
+    
+              <!-- Novedades -->
+              <div class="form-check">
+                <input class="form-check-input mt-2" type="checkbox" value="Novedades" id="categoryNovedades" name="categoryFilter">
+                <label class="form-check-label mt-2" for="categoryNovedades">Novedades (<span id="countNovedades">0</span>)</label>
+              </div>
+    
+              <!-- Tuberías -->
+              <div class="form-check">
+                <input class="form-check-input mt-2" type="checkbox" value="Tuberias" id="categoryTuberias" name="categoryFilter">
+                <label class="form-check-label mt-2" for="categoryTuberias">Tuberías (<span id="countTuberias">0</span>)</label>
+              </div>
+    
+              <!-- Unicanal -->
+              <div class="form-check">
+                <input class="form-check-input mt-2" type="checkbox" value="Unicanal" id="categoryUnicanal" name="categoryFilter">
+                <label class="form-check-label mt-2" for="categoryUnicanal">Unicanal (<span id="countUnicanal">0</span>)</label>
+              </div>
+            </div>
+    
+            <!-- Disponibilidad -->
+            <div class="mb-4">
+              <h5>Disponibilidad</h5>
+              <div class="form-check">
+                <input class="form-check-input mt-2" type="checkbox" value="Disponible" id="availabilityDisponible" name="availabilityFilter">
+                <label class="form-check-label mt-2" for="availabilityDisponible">Disponible</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input mt-2" type="checkbox" value="Agotado" id="availabilityAgotado" name="availabilityFilter">
+                <label class="form-check-label mt-2" for="availabilityAgotado">Agotado</label>
+              </div>
+            </div>
+    
+            <!-- Botón para aplicar filtros -->
+            <button class="btn-filter w-100" onclick="applyFilters()">Aplicar Filtros</button>
+          </div>
+        </div>
+    
+        <!-- Productos (lado derecho) -->
+        <div class="col-12 col-md-9 p-md-4 p-0">
+          <div class="row" id="productList">
+            <!-- Los productos se cargarán aquí dinámicamente -->
+          </div>
+          <div class="row mt-5">
+            <div class="pagination-controls text-center">
+              <button id="prevPage" class="btn btn-products-controls">Anterior</button>
+              <span class="mx-4" id="pageInfo"></span>
+              <button id="nextPage" class="btn btn-products-controls">Siguiente</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--Productos-->
 
 
@@ -345,7 +535,7 @@
           <h3 class="wow animate__animated animate__slideInUp text-white font-weight-bold text-left white-text pb-2  ">
             Solicita tu cotización</h3>
           <p class="wow animate__animated animate__slideInUp lead text-white text-left white-text pt-2 mb-5  ">
-            Contáctanos directamente por medio de WhatsApp, <br> estamos listo para poder atenderte.</p>
+            Contactanos directamente de WhatsApp, <br> estamos listo para poder atenderte.</p>
           <div class="col-12 text-left ml-0 pl-0">
             <div class="col-12 btn-crossline wow animate__animated animate__pulse animate__repeat-3">
 
@@ -421,7 +611,7 @@
                 <p class="text-start text-white text-justify">Somos fabricantes de ductos y soportes para instalaciones
                   eléctricas, con los estándares más altos de calidad. Contamos con representación en todas las regiones
                   de México</p>
-                <a class="btn btn-outline-light btn-floating m-1"  role="button"><svg
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><svg
                     xmlns="http://www.w3.org/2000/svg" width="20" height="33" fill="currentColor" class="bi bi-facebook"
                     viewBox="0 0 16 16">
                     <path
@@ -429,7 +619,7 @@
                   </svg></a>
 
                 <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1"  role="button">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" fill="currentColor"
                     class="bi bi-twitter" viewBox="0 0 16 16">
                     <path
@@ -438,7 +628,7 @@
                 </a>
 
                 <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-1"  role="button"><svg
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><svg
                     xmlns="http://www.w3.org/2000/svg" width="20" height="32" fill="currentColor" class="bi bi-youtube"
                     viewBox="0 0 16 16">
                     <path
@@ -455,49 +645,49 @@
 
             <ul class="list-unstyled ">
               <li>
-                <a  class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                <a href="#!" class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z" />
                   </svg> Abrazaderas para tubería</a>
               </li>
               <li>
-                <a  class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                <a href="#!" class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z" />
                   </svg> Canal ventilado</a>
               </li>
               <li>
-                <a  class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                <a href="#!" class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z" />
                   </svg> Soporte tipo charola</a>
               </li>
               <li>
-                <a  class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                <a href="#!" class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z" />
                   </svg> Ductos</a>
               </li>
               <li>
-                <a  class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                <a href="#!" class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z" />
                   </svg> Unicanal</a>
               </li>
               <li>
-                <a  class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                <a href="#!" class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z" />
                   </svg> Tubería</a>
               </li>
               <li>
-                <a  class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                <a href="#!" class="text-custom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z" />
@@ -543,7 +733,7 @@
                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
                   </svg>
                   Calle Alessandro Volta Lote. 1 y 2.
-                  Parque Industrial Cuamatla Cuautitlán Izcalli, Estado de México. C.P. 54730</a>
+                  Parque Industrial Cuamatla Cuautitlan Izcalli, Estado de México. C.P. 54730</a>
               </li>
             </ul>
           </div>
