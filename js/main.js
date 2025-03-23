@@ -132,7 +132,7 @@ let products = [
     category: "Unicanal",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/BASE PARA POSTES LU-2072.png",
+    image: "./Assets/products/BASE PARA POSTES LU-2072.png",
     ficha: "",
   },
   {
@@ -141,7 +141,7 @@ let products = [
     category: "Unicanal",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/BASE REFORZADA LU-2072 CA-.png",
+    image: "./Assets/products/BASE REFORZADA LU-2072 CA-.png",
     ficha: "",
   },
   {
@@ -150,7 +150,7 @@ let products = [
     category: "Unicanal",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/BASE REFORZADA LU-2073.png",
+    image: "./Assets/products/BASE REFORZADA LU-2073.png",
     ficha: "",
   },
   {
@@ -159,7 +159,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL 3.png",
+    image: "./Assets/products/CL 3.png",
     ficha: "",
   },
   {
@@ -168,7 +168,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL 32.png",
+    image: "./Assets/products/CL 32.png",
     ficha: "",
   },
   {
@@ -177,7 +177,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL33.png",
+    image: "./Assets/products/CL33.png",
     ficha: "",
   },
   {
@@ -186,7 +186,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL34.png",
+    image: "./Assets/products/CL34.png",
     ficha: "",
   },
   {
@@ -195,7 +195,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL35.png",
+    image: "./Assets/products/CL35.png",
     ficha: "",
   },
   {
@@ -204,7 +204,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL36.png",
+    image: "./Assets/products/CL36.png",
     ficha: "",
   },
   {
@@ -213,7 +213,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL37.png",
+    image: "./Assets/products/CL37.png",
     ficha: "",
   },
   {
@@ -222,7 +222,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL38.png",
+    image: "./Assets/products/CL38.png",
     ficha: "",
   },
   {
@@ -231,7 +231,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL39.png",
+    image: "./Assets/products/CL39.png",
     ficha: "",
   },
   {
@@ -240,7 +240,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL40.png",
+    image: "./Assets/products/CL40.png",
     ficha: "",
   },
   {
@@ -258,7 +258,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL42.png",
+    image: "./Assets/products/CL42.png",
     ficha: "",
   },
   {
@@ -267,7 +267,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL43.png",
+    image: "./Assets/products/CL43.png",
     ficha: "",
   },
   {
@@ -276,7 +276,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL44.png",
+    image: "./Assets/products/CL44.png",
     ficha: "",
   },
   {
@@ -285,7 +285,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL45.png",
+    image: "./Assets/products/CL45.png",
     ficha: "",
   },
   {
@@ -294,7 +294,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL46.png",
+    image: "./Assets/products/CL46.png",
     ficha: "",
   },
   {
@@ -303,7 +303,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL47.png",
+    image: "./Assets/products/CL47.png",
     ficha: "",
   },
   {
@@ -312,7 +312,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL48.png",
+    image: "./Assets/products/CL48.png",
     ficha: "",
   },
   {
@@ -321,7 +321,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL49.png",
+    image: "./Assets/products/CL49.png",
     ficha: "",
   },
   {
@@ -330,7 +330,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL50.png",
+    image: "./Assets/products/CL50.png",
     ficha: "",
   },
   {
@@ -339,7 +339,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL51.png",
+    image: "./Assets/products/CL51.png",
     ficha: "",
   },
   {
@@ -348,7 +348,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL52.png",
+    image: "./Assets/products/CL52.png",
     ficha: "",
   },
   {
@@ -357,7 +357,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL53.png",
+    image: "./Assets/products/CL53.png",
     ficha: "",
   },
   {
@@ -366,7 +366,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CL54.png",
+    image: "./Assets/products/CL54.png",
     ficha: "",
   },
   {
@@ -375,7 +375,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "../assets/products/CL55.png",
+    image: "../Assets/products/CL55.png",
     ficha: "",
   },
   {
@@ -384,7 +384,7 @@ let products = [
     category: "Unicancal",
     application: "Casual",
     availability: "Disponible",
-    image: "../assets/products/CONECTOR DE ESQUINA LU-1956.png",
+    image: "../Assets/products/CONECTOR DE ESQUINA LU-1956.png",
     ficha: "",
   },
   {
@@ -393,7 +393,7 @@ let products = [
     category: "Unicancal",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CONECTOR LU-1036.png",
+    image: "./Assets/products/CONECTOR LU-1036.png",
     ficha: "",
   },
   {
@@ -402,7 +402,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CURVA HORIZONTAL TIPO ESCALERA.png",
+    image: "./Assets/products/CURVA HORIZONTAL TIPO ESCALERA.png",
     ficha: "",
   },
   {
@@ -411,7 +411,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CURVA HORIZONTAL TIPO FONDO SOLIDO.png",
+    image: "./Assets/products/CURVA HORIZONTAL TIPO FONDO SOLIDO.png",
     ficha: "",
   },
   {
@@ -420,7 +420,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/CURVA VERTICAL EXTERIOR TIPO ESCALERA.png",
+    image: "./Assets/products/CURVA VERTICAL EXTERIOR TIPO ESCALERA.png",
     ficha: "",
   },
   {
@@ -429,7 +429,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/MÉNSULA PARA MONTAJE EN PARED.png",
+    image: "./Assets/products/MÉNSULA PARA MONTAJE EN PARED.png",
     ficha: "",
   },
   {
@@ -438,7 +438,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TE HORIZONTAL PARA CHAROLA TIPO ESCALERA.png",
+    image: "./Assets/products/TE HORIZONTAL PARA CHAROLA TIPO ESCALERA.png",
     ficha: "",
   },
   {
@@ -447,7 +447,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TE VERTICAL PARA CHAROLA TIPO ESCALERA.png",
+    image: "./Assets/products/TE VERTICAL PARA CHAROLA TIPO ESCALERA.png",
     ficha: "",
   },
   {
@@ -456,7 +456,7 @@ let products = [
     category: "Sin Asignar",
     application: "Ductos",
     availability: "Disponible",
-    image: "./assets/products/TRADO RECTO DE DUCTO BRIDADO Y EMBISAGRADO.png",
+    image: "./Assets/products/TRADO RECTO DE DUCTO BRIDADO Y EMBISAGRADO.png",
     ficha: "",
   },
   {
@@ -465,7 +465,7 @@ let products = [
     category: "Canaletas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE CANALETA CON VENTILACIÓN.png",
+    image: "./Assets/products/TRAMO RECTO DE CANALETA CON VENTILACIÓN.png",
     ficha: "",
   },
   {
@@ -474,7 +474,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE CHAROLA TIPO ESCALERA PERFIL C EN FIBRA DE VIDRIO.png",
+    image: "./Assets/products/TRAMO RECTO DE CHAROLA TIPO ESCALERA PERFIL C EN FIBRA DE VIDRIO.png",
     ficha: "",
   },
   {
@@ -483,7 +483,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE CHAROLA TIPO ESCALERA PERFIL C.png",
+    image: "./Assets/products/TRAMO RECTO DE CHAROLA TIPO ESCALERA PERFIL C.png",
     ficha: "",
   },
   {
@@ -492,7 +492,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE CHAROLA TIPO ESCALERA PERFIL I.png",
+    image: "./Assets/products/TRAMO RECTO DE CHAROLA TIPO ESCALERA PERFIL I.png",
     ficha: "",
   },
   {
@@ -501,7 +501,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE CHAROLA TIPO ESCALERA PERFIL Z.png",
+    image: "./Assets/products/TRAMO RECTO DE CHAROLA TIPO ESCALERA PERFIL Z.png",
     ficha: "",
   },
   {
@@ -510,7 +510,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE CHAROLA TIPO FONDO LISO PERFORADO PERFIL Z.png",
+    image: "./Assets/products/TRAMO RECTO DE CHAROLA TIPO FONDO LISO PERFORADO PERFIL Z.png",
     ficha: "",
   },
   {
@@ -519,7 +519,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE CHAROLA TIPO FONDO SOLIDO PERFIL C.png",
+    image: "./Assets/products/TRAMO RECTO DE CHAROLA TIPO FONDO SOLIDO PERFIL C.png",
     ficha: "",
   },
   {
@@ -528,7 +528,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE CHAROLA TIPO FONDO SOLIDO PERFIL Z.png",
+    image: "./Assets/products/TRAMO RECTO DE CHAROLA TIPO FONDO SOLIDO PERFIL Z.png",
     ficha: "",
   },
   {
@@ -537,7 +537,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE CHAROLA TIPO MALLA.png",
+    image: "./Assets/products/TRAMO RECTO DE CHAROLA TIPO MALLA.png",
     ficha: "",
   },
   {
@@ -546,7 +546,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE CHAROLA TIPO MARINO.png",
+    image: "./Assets/products/TRAMO RECTO DE CHAROLA TIPO MARINO.png",
     ficha: "",
   },
   {
@@ -555,7 +555,7 @@ let products = [
     category: "Ductos",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE DUCTO CUADRADO EMBISAGRADO.png",
+    image: "./Assets/products/TRAMO RECTO DE DUCTO CUADRADO EMBISAGRADO.png",
     ficha: "",
   },
   {
@@ -564,7 +564,7 @@ let products = [
     category: "Ductos",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE DUCTO TAPA A PRESIÓN.png",
+    image: "./Assets/products/TRAMO RECTO DE DUCTO TAPA A PRESIÓN.png",
     ficha: "",
   },
   {
@@ -573,7 +573,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/TRAMO RECTO DE TAPA ANTIDERRAPANTE CON CEJA.png",
+    image: "./Assets/products/TRAMO RECTO DE TAPA ANTIDERRAPANTE CON CEJA.png",
     ficha: "",
   },
   {
@@ -582,7 +582,7 @@ let products = [
     category: "Unicanal",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/UNICANAL DOBLE LU-1001.png",
+    image: "./Assets/products/UNICANAL DOBLE LU-1001.png",
     ficha: "",
   },
   {
@@ -591,7 +591,7 @@ let products = [
     category: "Unicanal",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/UNICANAL LU-3300.png",
+    image: "./Assets/products/UNICANAL LU-3300.png",
     ficha: "",
   },
   {
@@ -600,7 +600,7 @@ let products = [
     category: "Unicanal",
     application: "Casual",
     availability: "Disponible",
-    image: "./assets/products/UNICANAL LU-5500.png",
+    image: "./Assets/products/UNICANAL LU-5500.png",
     ficha: "",
   },
 ];
