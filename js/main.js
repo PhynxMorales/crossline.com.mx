@@ -249,7 +249,7 @@ let products = [
     category: "Sin Asignar",
     application: "Casual",
     availability: "Disponible",
-    image: "/assets/products/CL41.png",
+    image: "./Assets/products/CL41.png",
     ficha: ".",
   },
   {
