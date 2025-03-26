@@ -620,7 +620,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/ACCESORIOS UNICANAL.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/UnicanalAcc_CrossLin.pdf",
+    ficha: "https://drive.google.com/drive/folders/1IPJHdq7x0xjMiMkWhvJQOGilWFMVpoCl?usp=drive_link",
   },
   {
     name: "ACCESORIOS PARA USO PESADO",
@@ -629,7 +629,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/ACCESORIOS PARA USO PESADO.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/UsoPesado_CrossLine.pdf",
+    ficha: "https://alianzaelectrica.com/crossline/UsoPesado_CrossLine.pdf",
   },
   {
     name: "TUBERÍA CONDUIT",
@@ -638,7 +638,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/TUBERÍA CONDUIT.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/TuberiaConduit_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1boTIUI_fPyMN0FWcHb5qvyfh6ruGMWUX?usp=drive_link",
   },
   {
     name: "GABINETES",
@@ -647,7 +647,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/GABINETES.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Gabinete_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/19kHiU-FnLawK_l-d4zFjrZsvs2gb6FJH?usp=drive_link",
   },
   {
     name: "APRUEBA DE EXPLOSIÓN",
@@ -656,7 +656,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/APRUEBA DE EXPLOSIÓN.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Exp_CrossLine.pdf",
+    ficha: "https://cdn.shopify.com/s/files/1/0040/8551/4369/files/Exp_CrossLine.pdf?v=1743008021",
   },
   {
     name: "PRODUCTOS ESPECIALES",
@@ -665,7 +665,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/PRODUCTOS ESPECIALES.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Especiales_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1E84dLvUazi1uDyJIgyRFLe_6tjbwO3S9?usp=drive_link",
   },
   {
     name: " EJOT®",
@@ -674,7 +674,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/EJOT.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Ejot_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1z7B0kJg9CXdoApXQ74gfodg9CsD6X-vH?usp=drive_link",
   },
   {
     name: "DUCTOS",
@@ -683,7 +683,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/DUCTOS.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Ducto_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/15GBzcdZQYG4I0dv7DYLuDHTu9AlHaihk?usp=drive_link",
   },
   {
     name: "CINCHOS",
@@ -692,16 +692,16 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/DUCTOS.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Cincho_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1IBXris7hL2QrvpFE7uI_WhrUQfKpvI2X?usp=drive_link",
   },
   {
-    name: "CHAROLAS DE VIDRIO",
+    name: "CHAROLAS FIBRA DE VIDRIO",
     sku: "",
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/CHAROLAS DE VIDRIO.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Charola_Vidrio_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1nSCyUwnLL_UJOtJcwaiPiFNDuC-mVxsA?usp=drive_link",
   },
   {
     name: "TUBERÍA NEWTON",
@@ -710,7 +710,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/CHAROLA NEWTON.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Charola_Newton_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1jEfy_0yDW8gjqNAgYhDDNNOlUyX-3GRu?usp=drive_link",
   },
   {
     name: "CHAROLA TIPO MARINO",
@@ -719,7 +719,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/CHAROLA TIPO MARINO.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Charola_Marino_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1pcy29TlHE_OfIXUc0_kcLiPNwuyh04Zi?usp=drive_link",
   },
   {
     name: "CHAROLA TIPO MALLA",
@@ -728,7 +728,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/CHAROLA TIPO MALLA.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Charola_Malla_Crossine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1bBBJdXoO--hj-qPZBTO7YiYuu5XX0Cqc?usp=drive_link",
   },
   {
     name: "CHAROLA TIPO LISO PERFORADO",
@@ -737,7 +737,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/CHAROLA TIPO LISO PERFORADO.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Charola_LisoPerforado_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1lsmYo13qlGCTqIm1jK1XyCytfycT15WQ?usp=drive_link",
   },
   {
     name: "CHAROLA TIPO ESCALERA",
@@ -746,16 +746,16 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/CHAROLA TIPO ESCALERA.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Charola_Escalera_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1Hcxn60rjRk-k4U_qTxaAxH6GB8yCPapc?usp=drive_link",
   },
   {
-    name: "CHAROLA TIPO ACCESORIOS",
+    name: "CHAROLA ACCESORIOS",
     sku: "",
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/CHAROLA TIPO ACCESORIOS.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Charola_Accesorios_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/15sfL2nxfthih6JnHv2KmxYwprT7GkaU8?usp=drive_link",
   },
   {
     name: "CHAROLA TIPO CANALETA",
@@ -764,7 +764,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/CHAROLA TIPO CANALETA.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Canaleta_CrossLine.pdf",
+    ficha: "https://alianzaelectrica.com/crossline/Canaleta_CrossLine.pdf",
   },
   {
     name: "BREAKER",
@@ -773,7 +773,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/BREAKER.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Breaker_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1iKfJtEI09tKWuvxiwCiQDdsdlVkHc-t7?usp=drive_link",
   },
   {
     name: "ABRAZADERAS",
@@ -782,7 +782,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/ABRAZADERAS.jpg",
-    ficha: "./Assets/pdf/fichas tecnicas/Abrazaderas_CrossLine.pdf",
+    ficha: "https://drive.google.com/drive/folders/1xWZHOirGlrDtx2VJl59HThBqRmvJ-PBN?usp=drive_link",
   }
 
 
@@ -880,7 +880,7 @@ function renderProducts(filteredProducts, page = 1) {
           </span>
         </div>
         <h3>${product.name}</h3>
-        <a class="producto-pdf ${buttonClass}" href="${hasFicha ? product.ficha : "#"}" style="cursor: ${cursorStyle};" ${tooltip} ${hasFicha ? 'download' : ''} ${hasFicha ? '' : 'tabindex="-1" aria-disabled="true"'}>
+        <a class="producto-pdf" target="Blank_" ${buttonClass}" href="${hasFicha ? product.ficha : "#"}" style="cursor: ${cursorStyle};" ${tooltip} ${hasFicha ? 'download' : ''} ${hasFicha ? '' : 'tabindex="-1" aria-disabled="true"'}>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M4.5 9.003a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-.166h.333a1.167 1.167 0 0 0 0-2.334zm.833 1.334H5v-.334h.333a.167.167 0 0 1 0 .334m4.668-.835a.5.5 0 0 1 .5-.499h.998a.5.5 0 0 1 0 1h-.5v.335h.5a.5.5 0 1 1 0 1H11v.164a.5.5 0 0 1-1 .002v-.667zm-2.503-.499a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5H8a1.5 1.5 0 0 0 0-3zm.5 2v-1H8a.5.5 0 0 1 0 1zM9 2.002H4.5a1.5 1.5 0 0 0-1.5 1.5v3.582A1.5 1.5 0 0 0 2 8.5v4.003a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5V8.499a1.5 1.5 0 0 0-1-1.415V6h-2.5A1.5 1.5 0 0 1 9 4.5zM3.5 7.999h9a.5.5 0 0 1 .5.5v4.003a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V8.499a.5.5 0 0 1 .5-.5m9.206-3H10.5a.5.5 0 0 1-.5-.5V2.298z"/></svg> Fichas Técnicas
         </a>
       </div>
