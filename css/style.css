@@ -1083,10 +1083,10 @@ textarea {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0.3; /* Ajusta la opacidad */
+    opacity: 0.5; /* Ajusta la opacidad */
     pointer-events: none; /* Para que no afecte clics */
   }
 
   .watermark-overlay img {
-    width: 100px; /* Ajusta el tamaño del logo */
+    width: 200px; /* Ajusta el tamaño del logo */
   }
