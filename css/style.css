@@ -1064,3 +1064,29 @@ textarea {
   color: #fff;
   background: var(--color-crossline);
 } 
+  /* Contenedor de la imagen */
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Estilos de la imagen para evitar descargas */
+  .no-download {
+    pointer-events: none; /* Evita interacciones */
+    user-drag: none; /* Evita arrastrar */
+    user-select: none; /* Evita selección */
+  }
+
+  /* Overlay con marca de agua */
+  .watermark-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3; /* Ajusta la opacidad */
+    pointer-events: none; /* Para que no afecte clics */
+  }
+
+  .watermark-overlay img {
+    width: 100px; /* Ajusta el tamaño del logo */
+  }
