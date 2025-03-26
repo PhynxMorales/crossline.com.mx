@@ -182,8 +182,15 @@
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <!-- Body del Modal -->
-      <div class="modal-body text-center">
-        <img id="modalImage" src="" alt="Imagen ampliada" class="img-fluid">
+      <div class="modal-body text-center position-relative">
+        <!-- Contenedor con la imagen y la marca de agua -->
+        <div class="image-container">
+          <img id="modalImage" src="" alt="Imagen ampliada" class="img-fluid no-download">
+          <!-- Marca de agua -->
+          <div class="watermark-overlay">
+            <img src="./Assets/logotipo_CL_blanco.svg" alt="Marca de agua">
+          </div>
+        </div>
       </div>
       <!-- Footer del Modal con derechos reservados -->
       <div class="py-2 bg-light text-center border-1 border-top">
@@ -195,6 +202,8 @@
     </div>
   </div>
 </div>
+<!-- Modal para la imagen -->
+
 
 
   <main>
