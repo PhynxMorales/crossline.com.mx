@@ -205,7 +205,6 @@
 <!-- Modal para la imagen -->
 
 
-
   <main>
     <!--Banner-->
     <div class="container-fluid my-0 p-0">
@@ -367,153 +366,215 @@
     <div class="container-fluid ">
       <div class="row mx-md-2 p-md-5 mx-0 p-0 position-relative ">
         <div class="title-products">
-          <h2 class="text-black mt-4">Portafolio de productos</h2>
+          <h2 class="text-black">Portafolio de productos</h2>
           <p class="border-bottom border-1 pb-3">En Cross Line, no solo vendemos productos; ofrecemos soluciones confiables y duraderas que impulsan el éxito de nuestros clientes. ¡Explora nuestro portafolio y descubre por qué somos la mejor opción!</p>
         </div>
-        <!-- Filtros (lado izquierdo) -->
-        <div class="col-md-3 p-4 bg-light sticky-top container-products" >
-          <h4 class="text-black border-bottom border-1 pb-2">Filtros</h2>
-    
-          <!-- Acordeón para móviles -->
-          <div class="accordion d-md-none" id="filtersAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  Mostrar Filtros
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#filtersAccordion">
-                <div class="accordion-body">
-                  <!-- Contenido de los filtros -->
-                  <div class="mb-4">
-                    <h5>Categoría</h5>
-                    <!-- Abrazaderas -->
-                    <div class="form-check">
-                      <input class="form-check-input mt-2" type="checkbox" value="Abrazaderas" id="categoryAbrazaderasMobile" name="categoryFilter">
-                      <label class="form-check-label mt-2" for="categoryAbrazaderasMobile">Abrazaderas (<span id="countAbrazaderasMobile">0</span>)</label>
-                    </div>
-    
-                    <!-- Canaletas -->
-                    <div class="form-check">
-                      <input class="form-check-input mt-2" type="checkbox" value="Canaletas" id="categoryCanaletasMobile" name="categoryFilter">
-                      <label class="form-check-label mt-2" for="categoryCanaletasMobile">Canaletas (<span id="countCanaletasMobile">0</span>)</label>
-                    </div>
-    
-                    <!-- Charolas -->
-                    <div class="form-check">
-                      <input class="form-check-input mt-2" type="checkbox" value="Charolas" id="categoryCharolasMobile" name="categoryFilter">
-                      <label class="form-check-label mt-2" for="categoryCharolasMobile">Charolas (<span id="countCharolasMobile">0</span>)</label>
-                    </div>
-    
-                    <!-- Ductos -->
-                    <div class="form-check">
-                      <input class="form-check-input mt-2" type="checkbox" value="Ductos" id="categoryDuctosMobile" name="categoryFilter">
-                      <label class="form-check-label mt-2" for="categoryDuctosMobile">Ductos (<span id="countDuctosMobile">0</span>)</label>
-                    </div>
-    
-                    <!-- Novedades -->
-                    <div class="form-check">
-                      <input class="form-check-input mt-2" type="checkbox" value="Novedades" id="categoryNovedadesMobile" name="categoryFilter">
-                      <label class="form-check-label mt-2" for="categoryNovedadesMobile">Novedades (<span id="countNovedadesMobile">0</span>)</label>
-                    </div>
-    
-                    <!-- Tuberías -->
-                    <div class="form-check">
-                      <input class="form-check-input mt-2" type="checkbox" value="Tuberias" id="categoryTuberiasMobile" name="categoryFilter">
-                      <label class="form-check-label mt-2" for="categoryTuberiasMobile">Tuberías (<span id="countTuberiasMobile">0</span>)</label>
-                    </div>
-    
-                    <!-- Unicanal -->
-                    <div class="form-check">
-                      <input class="form-check-input mt-2" type="checkbox" value="Unicanal" id="categoryUnicanalMobile" name="categoryFilter">
-                      <label class="form-check-label mt-2" for="categoryUnicanalMobile">Unicanal (<span id="countUnicanalMobile">0</span>)</label>
-                    </div>
-                  </div>
-    
-                  <!-- Disponibilidad -->
-                  <div class="mb-4">
-                    <h5>Disponibilidad</h5>
-                    <div class="form-check">
-                      <input class="form-check-input mt-2" type="checkbox" value="Disponible" id="availabilityDisponibleMobile" name="availabilityFilter">
-                      <label class="form-check-label mt-2" for="availabilityDisponibleMobile">Disponible</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input mt-2" type="checkbox" value="Agotado" id="availabilityAgotadoMobile" name="availabilityFilter">
-                      <label class="form-check-label mt-2" for="availabilityAgotadoMobile">Agotado</label>
-                    </div>
-                  </div>
-    
-                  <!-- Botón para aplicar filtros -->
-                  <button class="btn-filter w-100" onclick="applyFilters()">Aplicar Filtros</button>
-                </div>
-              </div>
+<!-- Filtros (lado izquierdo) -->
+<div class="col-md-3 p-4 bg-light sticky-top container-products">
+  <h4 class="text-black border-bottom border-1 pb-2">Filtros</h4>
+
+  <!-- Acordeón para móviles -->
+  <div class="accordion d-md-none" id="filtersAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Mostrar Filtros
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#filtersAccordion">
+        <div class="accordion-body">
+          <!-- Contenido de los filtros -->
+          <div class="mb-4">
+            <h5>Categoría</h5>
+            
+            <!-- Unicanal -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Unicanal" id="categoryUnicanalMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryUnicanalMobile">Unicanal (<span id="countUnicanalMobile">0</span>)</label>
+            </div>
+            
+            <!-- Uso Pesado -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Uso Pesado" id="categoryUsoPesadoMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryUsoPesadoMobile">Uso Pesado (<span id="countUsoPesadoMobile">0</span>)</label>
+            </div>
+            
+            <!-- Tuberia -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Tuberia" id="categoryTuberiaMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryTuberiaMobile">Tubería (<span id="countTuberiaMobile">0</span>)</label>
+            </div>
+            
+            <!-- Gabinetes -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Gabinetes" id="categoryGabinetesMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryGabinetesMobile">Gabinetes (<span id="countGabinetesMobile">0</span>)</label>
+            </div>
+            
+            <!-- Aprueba de Explosión -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Aprueba de Explosión" id="categoryExplosionMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryExplosionMobile">A prueba de Explosión (<span id="countExplosionMobile">0</span>)</label>
+            </div>
+            
+            <!-- Especiales -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Especiales" id="categoryEspecialesMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryEspecialesMobile">Especiales (<span id="countEspecialesMobile">0</span>)</label>
+            </div>
+            
+            <!-- EJOT -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="EJOT" id="categoryEJOTMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryEJOTMobile">EJOT (<span id="countEJOTMobile">0</span>)</label>
+            </div>
+            
+            <!-- Ductos -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Ductos" id="categoryDuctosMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryDuctosMobile">Ductos (<span id="countDuctosMobile">0</span>)</label>
+            </div>
+            
+            <!-- Cinchos -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Cinchos" id="categoryCinchosMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryCinchosMobile">Cinchos (<span id="countCinchosMobile">0</span>)</label>
+            </div>
+            
+            <!-- Charolas -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Charolas" id="categoryCharolasMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryCharolasMobile">Charolas (<span id="countCharolasMobile">0</span>)</label>
+            </div>
+            
+            <!-- Breaker -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Breaker" id="categoryBreakerMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryBreakerMobile">Breaker (<span id="countBreakerMobile">0</span>)</label>
+            </div>
+            
+            <!-- Abrazaderas -->
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Abrazaderas" id="categoryAbrazaderasMobile" name="categoryFilter">
+              <label class="form-check-label mt-2" for="categoryAbrazaderasMobile">Abrazaderas (<span id="countAbrazaderasMobile">0</span>)</label>
             </div>
           </div>
-    
-          <!-- Filtros para pantallas grandes -->
-          <div class="d-none d-md-block">
-            <div class="mb-4">
-              <h5>Categoría</h5>
-              <!-- Abrazaderas -->
-              <div class="form-check">
-                <input class="form-check-input mt-2" type="checkbox" value="Abrazaderas" id="categoryAbrazaderas" name="categoryFilter">
-                <label class="form-check-label mt-2" for="categoryAbrazaderas">Abrazaderas (<span id="countAbrazaderas">0</span>)</label>
-              </div>
-    
-              <!-- Canaletas -->
-              <div class="form-check">
-                <input class="form-check-input mt-2" type="checkbox" value="Canaletas" id="categoryCanaletas" name="categoryFilter">
-                <label class="form-check-label mt-2" for="categoryCanaletas">Canaletas (<span id="countCanaletas">0</span>)</label>
-              </div>
-    
-              <!-- Charolas -->
-              <div class="form-check">
-                <input class="form-check-input mt-2" type="checkbox" value="Charolas" id="categoryCharolas" name="categoryFilter">
-                <label class="form-check-label mt-2" for="categoryCharolas">Charolas (<span id="countCharolas">0</span>)</label>
-              </div>
-    
-              <!-- Ductos -->
-              <div class="form-check">
-                <input class="form-check-input mt-2" type="checkbox" value="Ductos" id="categoryDuctos" name="categoryFilter">
-                <label class="form-check-label mt-2" for="categoryDuctos">Ductos (<span id="countDuctos">0</span>)</label>
-              </div>
-    
-              <!-- Novedades -->
-              <div class="form-check">
-                <input class="form-check-input mt-2" type="checkbox" value="Novedades" id="categoryNovedades" name="categoryFilter">
-                <label class="form-check-label mt-2" for="categoryNovedades">Novedades (<span id="countNovedades">0</span>)</label>
-              </div>
-    
-              <!-- Tuberías -->
-              <div class="form-check">
-                <input class="form-check-input mt-2" type="checkbox" value="Tuberias" id="categoryTuberias" name="categoryFilter">
-                <label class="form-check-label mt-2" for="categoryTuberias">Tuberías (<span id="countTuberias">0</span>)</label>
-              </div>
-    
-              <!-- Unicanal -->
-              <div class="form-check">
-                <input class="form-check-input mt-2" type="checkbox" value="Unicanal" id="categoryUnicanal" name="categoryFilter">
-                <label class="form-check-label mt-2" for="categoryUnicanal">Unicanal (<span id="countUnicanal">0</span>)</label>
-              </div>
+
+          <!-- Disponibilidad -->
+          <div class="mb-4">
+            <h5>Disponibilidad</h5>
+            <div class="form-check">
+              <input class="form-check-input mt-2" type="checkbox" value="Disponible" id="availabilityDisponibleMobile" name="availabilityFilter">
+              <label class="form-check-label mt-2" for="availabilityDisponibleMobile">Disponible</label>
             </div>
-    
-            <!-- Disponibilidad -->
-            <div class="mb-4">
-              <h5>Disponibilidad</h5>
-              <div class="form-check">
-                <input class="form-check-input mt-2" type="checkbox" value="Disponible" id="availabilityDisponible" name="availabilityFilter">
-                <label class="form-check-label mt-2" for="availabilityDisponible">Disponible</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input mt-2" type="checkbox" value="Agotado" id="availabilityAgotado" name="availabilityFilter">
-                <label class="form-check-label mt-2" for="availabilityAgotado">Agotado</label>
-              </div>
+            <div class="form-check">
+              <!-- <input class="form-check-input mt-2" type="checkbox" value="Agotado" id="availabilityAgotadoMobile" name="availabilityFilter">
+              <label class="form-check-label mt-2" for="availabilityAgotadoMobile">Agotado</label> -->
             </div>
-    
-            <!-- Botón para aplicar filtros -->
-            <button class="btn-filter w-100" onclick="applyFilters()">Aplicar Filtros</button>
           </div>
+
+          <!-- Botón para aplicar filtros -->
+          <button class="btn-filter w-100" onclick="applyFilters()">Aplicar Filtros</button>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filtros para pantallas grandes -->
+  <div class="d-none d-md-block">
+    <div class="mb-4">
+      <h5>Categoría</h5>
+      
+      <!-- Unicanal -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Unicanal" id="categoryUnicanal" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryUnicanal">Unicanal (<span id="countUnicanal">0</span>)</label>
+      </div>
+      
+      <!-- Uso Pesado -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Uso Pesado" id="categoryUsoPesado" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryUsoPesado">Uso Pesado (<span id="countUsoPesado">0</span>)</label>
+      </div>
+      
+      <!-- Tuberia -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Tuberia" id="categoryTuberia" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryTuberia">Tubería (<span id="countTuberia">0</span>)</label>
+      </div>
+      
+      <!-- Gabinetes -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Gabinetes" id="categoryGabinetes" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryGabinetes">Gabinetes (<span id="countGabinetes">0</span>)</label>
+      </div>
+      
+      <!-- Aprueba de Explosión -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Aprueba de Explosión" id="categoryExplosion" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryExplosion">A prueba de Explosión (<span id="countExplosion">0</span>)</label>
+      </div>
+      
+      <!-- Especiales -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Especiales" id="categoryEspeciales" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryEspeciales">Especiales (<span id="countEspeciales">0</span>)</label>
+      </div>
+      
+      <!-- EJOT -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="EJOT" id="categoryEJOT" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryEJOT">EJOT (<span id="countEJOT">0</span>)</label>
+      </div>
+      
+      <!-- Ductos -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Ductos" id="categoryDuctos" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryDuctos">Ductos (<span id="countDuctos">0</span>)</label>
+      </div>
+      
+      <!-- Cinchos -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Cinchos" id="categoryCinchos" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryCinchos">Cinchos (<span id="countCinchos">0</span>)</label>
+      </div>
+      
+      <!-- Charolas -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Charolas" id="categoryCharolas" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryCharolas">Charolas (<span id="countCharolas">0</span>)</label>
+      </div>
+      
+      <!-- Breaker -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Breaker" id="categoryBreaker" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryBreaker">Breaker (<span id="countBreaker">0</span>)</label>
+      </div>
+      
+      <!-- Abrazaderas -->
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Abrazaderas" id="categoryAbrazaderas" name="categoryFilter">
+        <label class="form-check-label mt-2" for="categoryAbrazaderas">Abrazaderas (<span id="countAbrazaderas">0</span>)</label>
+      </div>
+    </div>
+
+    <!-- Disponibilidad -->
+    <div class="mb-4">
+      <h5>Disponibilidad</h5>
+      <div class="form-check">
+        <input class="form-check-input mt-2" type="checkbox" value="Disponible" id="availabilityDisponible" name="availabilityFilter">
+        <label class="form-check-label mt-2" for="availabilityDisponible">Disponible</label>
+      </div>
+      <div class="form-check">
+        <!-- <input class="form-check-input mt-2" type="checkbox" value="Agotado" id="availabilityAgotado" name="availabilityFilter"> -->
+        <!-- <label class="form-check-label mt-2" for="availabilityAgotado">Agotado</label> -->
+      </div>
+    </div>
+
+    <!-- Botón para aplicar filtros -->
+    <button class="btn-filter w-100" onclick="applyFilters()">Aplicar Filtros</button>
+  </div>
+</div>
     
         <!-- Productos (lado derecho) -->
         <div class="col-12 col-md-9 p-md-4 p-0">
@@ -523,7 +584,7 @@
           <div class="row mt-5">
             <div class="pagination-controls text-center">
               <button id="prevPage" class="btn btn-products-controls">Anterior</button>
-              <span class="mx-md-4 mx-0" id="pageInfo"></span>
+              <span class="mx-4" id="pageInfo"></span>
               <button id="nextPage" class="btn btn-products-controls">Siguiente</button>
             </div>
           </div>
