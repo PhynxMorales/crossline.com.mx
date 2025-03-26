@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll("img").forEach(img => {
+    img.setAttribute("oncontextmenu", "return false;");
+  });
+});
+
+
 document.getElementById("year").textContent = new Date().getFullYear();
 
 document.addEventListener("DOMContentLoaded", function () {
