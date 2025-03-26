@@ -619,7 +619,7 @@ let products = [
     category: "Unicanal",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/UNICANAL.png",
+    image: "./Assets/products/ACCESORIOS UNICANAL.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/UnicanalAcc_CrossLin.pdf",
   },
   {
@@ -628,7 +628,7 @@ let products = [
     category: "Uso Pesado",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/USOPESADO.png",
+    image: "./Assets/products/ACCESORIOS PARA USO PESADO.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/UsoPesado_CrossLine.pdf",
   },
   {
@@ -637,7 +637,7 @@ let products = [
     category: "Tuberia",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/TUBERÍA CONDUIT.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/TuberiaConduit_CrossLine.pdf",
   },
   {
@@ -646,7 +646,7 @@ let products = [
     category: "Gabinetes",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/GABINETES.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Gabinete_CrossLine.pdf",
   },
   {
@@ -655,8 +655,8 @@ let products = [
     category: "Aprueba de Explosión",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
-    ficha: "./Assets/pdf/fichas tecnicas/TuberiaConduit_CrossLine.pdf",
+    image: "./Assets/products/APRUEBA DE EXPLOSIÓN.jpg",
+    ficha: "./Assets/pdf/fichas tecnicas/Exp_CrossLine.pdf",
   },
   {
     name: "PRODUCTOS ESPECIALES",
@@ -664,7 +664,7 @@ let products = [
     category: "Especiales",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/PRODUCTOS ESPECIALES.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Especiales_CrossLine.pdf",
   },
   {
@@ -673,7 +673,7 @@ let products = [
     category: "EJOT",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/EJOT.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Ejot_CrossLine.pdf",
   },
   {
@@ -682,7 +682,7 @@ let products = [
     category: "Ductos",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/DUCTOS.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Ducto_CrossLine.pdf",
   },
   {
@@ -691,7 +691,7 @@ let products = [
     category: "Cinchos",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/DUCTOS.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Cincho_CrossLine.pdf",
   },
   {
@@ -700,7 +700,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/CHAROLAS DE VIDRIO.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Charola_Vidrio_CrossLine.pdf",
   },
   {
@@ -709,7 +709,7 @@ let products = [
     category: "Tuberia",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/CHAROLA NEWTON.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Charola_Newton_CrossLine.pdf",
   },
   {
@@ -718,7 +718,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/CHAROLA TIPO MARINO.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Charola_Marino_CrossLine.pdf",
   },
   {
@@ -727,7 +727,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/CHAROLA TIPO MALLA.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Charola_Malla_Crossine.pdf",
   },
   {
@@ -736,7 +736,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/CHAROLA TIPO LISO PERFORADO.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Charola_LisoPerforado_CrossLine.pdf",
   },
   {
@@ -745,7 +745,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/CHAROLA TIPO ESCALERA.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Charola_Escalera_CrossLine.pdf",
   },
   {
@@ -754,7 +754,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/CHAROLA TIPO ACCESORIOS.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Charola_Accesorios_CrossLine.pdf",
   },
   {
@@ -763,7 +763,7 @@ let products = [
     category: "Charolas",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/CHAROLA TIPO CANALETA.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Canaleta_CrossLine.pdf",
   },
   {
@@ -772,7 +772,7 @@ let products = [
     category: "Breaker",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/BREAKER.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Breaker_CrossLine.pdf",
   },
   {
@@ -781,7 +781,7 @@ let products = [
     category: "Abrazaderas",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/.png",
+    image: "./Assets/products/ABRAZADERAS.jpg",
     ficha: "./Assets/pdf/fichas tecnicas/Abrazaderas_CrossLine.pdf",
   }
 
