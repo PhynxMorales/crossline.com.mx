@@ -691,7 +691,7 @@ let products = [
     category: "Cinchos",
     application: "Casual",
     availability: "Disponible",
-    image: "./Assets/products/DUCTOS.jpg",
+    image: "./Assets/products/CINCHOS.jpg",
     ficha: "https://drive.google.com/drive/folders/1IBXris7hL2QrvpFE7uI_WhrUQfKpvI2X?usp=drive_link",
   },
   {
