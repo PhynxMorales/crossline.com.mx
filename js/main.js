@@ -656,7 +656,7 @@ let products = [
     application: "Casual",
     availability: "Disponible",
     image: "./Assets/products/APRUEBA DE EXPLOSIÓN.jpg",
-    ficha: "https://cdn.shopify.com/s/files/1/0040/8551/4369/files/Exp_CrossLine.pdf?v=1743008021",
+    ficha: "https://drive.google.com/drive/folders/1JtJe28tiJ4G9gZEFciivRir8K_xQt70E?usp=drive_link",
   },
   {
     name: "PRODUCTOS ESPECIALES",
