@@ -667,6 +667,7 @@ let products = [
     image: "./Assets/products/PRODUCTOS ESPECIALES.jpg",
     ficha: "https://drive.google.com/drive/folders/1E84dLvUazi1uDyJIgyRFLe_6tjbwO3S9?usp=drive_link",
   },
+  /*
   {
     name: " EJOT®",
     sku: "",
@@ -676,6 +677,7 @@ let products = [
     image: "./Assets/products/EJOT.jpg",
     ficha: "https://drive.google.com/drive/folders/1z7B0kJg9CXdoApXQ74gfodg9CsD6X-vH?usp=drive_link",
   },
+  */
   {
     name: "DUCTOS",
     sku: "",
@@ -713,7 +715,7 @@ let products = [
     ficha: "https://drive.google.com/drive/folders/1jEfy_0yDW8gjqNAgYhDDNNOlUyX-3GRu?usp=drive_link",
   },
   {
-    name: "CHAROLA TIPO MARINO",
+    name: "CHAROLA TIPO MARINO EMBUTIDA",
     sku: "",
     category: "Charolas",
     application: "Casual",
@@ -731,7 +733,7 @@ let products = [
     ficha: "https://drive.google.com/drive/folders/1bBBJdXoO--hj-qPZBTO7YiYuu5XX0Cqc?usp=drive_link",
   },
   {
-    name: "CHAROLA TIPO LISO PERFORADO",
+    name: "CHAROLA TIPO SÓLIDO LISO Y PERFORADO",
     sku: "",
     category: "Charolas",
     application: "Casual",
@@ -749,7 +751,7 @@ let products = [
     ficha: "https://drive.google.com/drive/folders/1Hcxn60rjRk-k4U_qTxaAxH6GB8yCPapc?usp=drive_link",
   },
   {
-    name: "CHAROLA ACCESORIOS",
+    name: "ACCESORIOS PARA UNICANAL",
     sku: "",
     category: "Charolas",
     application: "Casual",
@@ -758,7 +760,7 @@ let products = [
     ficha: "https://drive.google.com/drive/folders/15sfL2nxfthih6JnHv2KmxYwprT7GkaU8?usp=drive_link",
   },
   {
-    name: "CHAROLA TIPO CANALETA",
+    name: "ACCESORIOS DE INSTALACIÓN PARA CHAROLA",
     sku: "",
     category: "Charolas",
     application: "Casual",
@@ -766,7 +768,7 @@ let products = [
     image: "./Assets/products/CHAROLA TIPO CANALETA.jpg",
     ficha: "https://alianzaelectrica.com/crossline/Canaleta_CrossLine.pdf",
   },
-  {
+/*  {
     name: "BREAKER",
     sku: "",
     category: "Breaker",
@@ -775,6 +777,7 @@ let products = [
     image: "./Assets/products/BREAKER.jpg",
     ficha: "https://drive.google.com/drive/folders/1iKfJtEI09tKWuvxiwCiQDdsdlVkHc-t7?usp=drive_link",
   },
+  */
   {
     name: "ABRAZADERAS",
     sku: "",
